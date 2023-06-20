@@ -138,3 +138,59 @@ $Very_pale_orange: hsl(33, 100%, 98%);
         }
     }
 }
+
+
+
+@media only screen and (max-width: 376px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .upperCard{
+            width: 90vw;
+            
+            .myBalanceContainer{
+                .balanceText{
+                    font-size: 1.2rem;
+                }
+                .balance{
+                    font-size: 2.4rem;
+                }
+            }
+
+            .logoContainer{
+                img{
+                    width: 6rem;
+                }
+            }
+        }
+
+        .lowerCard{
+            width: 90vw;
+            padding: 1.5rem 0.5rem;
+            .title{
+                font-size: 2.4rem;
+                letter-spacing: normal;
+            }
+
+            .footer{
+                .totalThisMonthContainer{
+                    gap:0.5rem;
+                    .thisMonthText{
+                        font-size: 1.6rem;
+                    }
+                }
+                .fromLastMonthContainer{
+                    gap:0.5rem;
+                    .lastMonthtext{
+                        font-size: 1.6rem;
+                    }
+                    .percent{
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+    }
+}
