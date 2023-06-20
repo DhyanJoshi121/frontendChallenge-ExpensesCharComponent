@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+  font-size: 1.8rem;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .upperCard {
+  background-color: #ec775f;
+  width: 25vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 1rem;
+  padding: 1.5rem 2rem;
+  color: white;
+}
+.hero .upperCard .myBalanceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.hero .upperCard .myBalanceContainer .balanceText {
+  font-size: 0.9rem;
+}
+.hero .upperCard .myBalanceContainer .balance {
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.hero .upperCard .logoContainer img {
+  width: 5rem;
+}
+.hero .lowerCard {
+  background-color: white;
+  color: black;
+  width: 25vw;
+  border-radius: 1rem;
+  margin-top: 2rem;
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.hero .lowerCard .title {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  margin: 0 1rem 0 1.5rem;
+}
+.hero .lowerCard .canvaBox {
+  width: 100%;
+  padding-right: 0.5rem;
+}
+.hero .lowerCard .canvaBox #myChart {
+  width: 100%;
+}
+.hero .lowerCard hr {
+  margin: 0 1rem 0 1.5rem;
+}
+.hero .lowerCard .footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0 1rem 0;
+}
+.hero .lowerCard .totalThisMonthContainer {
+  margin: 0 1rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.hero .lowerCard .totalThisMonthContainer .thisMonthText {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+}
+.hero .lowerCard .totalThisMonthContainer .monthMoney {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.hero .lowerCard .fromLastMonthContainer {
+  margin: 0 1rem 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+}
+.hero .lowerCard .fromLastMonthContainer .percent {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.hero .lowerCard .fromLastMonthContainer .lastMonthtext {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+}/*# sourceMappingURL=style.css.map */
